@@ -8,12 +8,132 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="20:45"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:srcCompat="@drawable/znachki"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border_radius"
+        android:backgroundTint="#E8E8E8"
+        android:text="Реквизиты счета"
+        android:textColor="#7C7C7C"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/da"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="20dp"
+            tools:srcCompat="@drawable/gift"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout1"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            tools:srcCompat="@drawable/element1"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            tools:srcCompat="@drawable/element2"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/element3"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/element4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout2"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            tools:srcCompat="@drawable/traty"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/keshback"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        tools:srcCompat="@drawable/Karta"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout3"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        tools:srcCompat="@drawable/tinkoffpro"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/image1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
