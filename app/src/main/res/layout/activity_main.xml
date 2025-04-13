@@ -395,15 +395,457 @@
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal">
+                            <FrameLayout
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:background="@drawable/schet_tinkoff_black">
+                            </FrameLayout>
 
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
 
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textStyle="bold"
+                                    android:text="0 ₽" />
 
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Tinkoff black" />
 
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="30dp"
+                                    android:scaleType="centerCrop"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/r_visa_card"/>
+                            </LinearLayout>
+                        </LinearLayout>
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/sber_background">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/sber"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Пополнить через сбербанк"
+                                android:textColor="@color/black"
+                                android:textSize="12dp" />
+
+                            <ImageView
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/grayright"
+                                android:layout_marginTop="12.5dp"
+                                android:layout_marginLeft="130dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:background="@drawable/backgroundadd"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="221dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/white_radius">
+
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="2.5dp"
+                                    android:src="@drawable/greencircle" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="0.5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:text="С Tinkoff Pro"
+                                    android:textSize="12dp" />
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Больше кешбека, дохода и бесплатное обслуживание"
+                                android:textColor="@color/black"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Подключите на 30 дней бесплатно"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="130dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/close" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/chemodanchik_investitsii"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_marginLeft="10dp"
+                                android:textStyle="bold"
+                                android:text="77 777 ₽" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_marginLeft="10dp"
+                                android:text="Инвестиции" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/whitered_radius">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFF2424"
+                            android:textSize="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="-759,68 ₽ · 4,4%" />
+                    </FrameLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:elevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="Сбербанк *8312"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:scaleType="centerCrop"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/sberbank_card"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp">
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/metods_radius">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_marginLeft="10dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="Взять деньги  " />
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="55dp"
+                                android:background="@drawable/money"
+                                android:scaleType="centerCrop"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/metods_radius"
+                            android:layout_marginLeft="20dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_marginLeft="10dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="Копить" />
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="55dp"
+                                android:background="@drawable/moremoney"
+                                android:scaleType="centerCrop"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/metods_radius">
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:layout_marginLeft="10dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:text="Инвестировать от 5 ₽" />
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="75dp"
+                                android:layout_marginTop="55dp"
+                                android:background="@drawable/invest"
+                                android:scaleType="centerCrop"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_background"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Посмотреть все продукты"
+                    android:textColor="@color/black"/>
             </LinearLayout>
         </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="-50dp"
+            android:orientation="horizontal">
 
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Главная"
+                    android:layout_marginTop="18dp"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#466EFF"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="42dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/graycircle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Платежи"
+                    android:layout_marginTop="18dp"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#FF787878"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/leftright"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Город"
+                    android:layout_marginTop="18dp"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#FF787878"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="35dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/graymessage"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Чат"
+                    android:layout_marginTop="18dp"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#FF787878"/>
+            </FrameLayout><FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/moretochek"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Еще"
+                android:layout_marginTop="18dp"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:textColor="#FF787878"/>
+        </FrameLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
